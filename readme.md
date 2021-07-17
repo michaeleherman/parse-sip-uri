@@ -50,4 +50,7 @@ Michael Herman - michael@thehermans.org
 
 * 1.0
     * Initial Release
+* 1.1
+    * Changed to return object instead of single value
+
 
