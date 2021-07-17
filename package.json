@@ -1,0 +1,11 @@
+{
+  "name": "parse-sip-uri",
+  "version": "1.0.0",
+  "description": "Parses SIP URL and returns user portion only",
+  "main": "ParseSipUri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Herman",
+  "license": "ISC"
+}
