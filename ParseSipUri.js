@@ -12,6 +12,9 @@ exports.parseSipUri = function (sipUri) {
     } else if (respObj.User.length == 11) {
         respObj.E164Number = `+${respObj.User}`;
     }
+    else {
+        respObj.E164Number = respObj.User;
+    }
     respObj.encodedURIComponentNumber = encodeURIComponent(respObj.E164Number);
 
     return respObj;
