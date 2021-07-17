@@ -3,7 +3,6 @@ exports.parseSipUri = function (sipUri) {
     const colonIndex = sipUri.indexOf(":");
     const atIndex = sipUri.indexOf(`@`);
     const semiColonIndex = (sipUri.includes(";") && sipUri.indexOf(";")) || sipUri.length ;
-    console.log("at index ", atIndex, semiColonIndex);
     respObj.Protocol = sipUri.substring(0, colonIndex);
     respObj.User = sipUri.substring(colonIndex + 1, atIndex);
     respObj.Domain = sipUri.substring(atIndex + 1, semiColonIndex);

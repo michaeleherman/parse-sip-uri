@@ -1,6 +1,6 @@
 {
   "name": "parse-sip-uri",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Parses SIP URL and returns user portion only",
   "main": "ParseSipUri.js",
   "scripts": {
